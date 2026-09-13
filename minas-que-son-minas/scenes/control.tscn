@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://dg8m581nbql83"]
+
+[ext_resource type="Script" uid="uid://bpdak872jrxd2" path="res://scripts/dialogue_manager.gd" id="1_5p55f"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_aaq6c"]
+font_size = 25
+
+[node name="Node" type="Node" unique_id=266543737]
+
+[node name="DialogueManager" type="CanvasLayer" parent="." unique_id=403738383]
+process_mode = 3
+script = ExtResource("1_5p55f")
+
+[node name="DialogueBox" type="Control" parent="DialogueManager" unique_id=1798037887]
+custom_minimum_size = Vector2(0, 200)
+custom_maximum_size = Vector2(0, 0)
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="DialogueManager/DialogueBox" unique_id=891971426]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.9137255)
+
+[node name="DialogueText" type="Label" parent="DialogueManager/DialogueBox" unique_id=61346294]
+custom_maximum_size = Vector2(0, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Cuando las vanderas caigan, el mundo volara en pedazos"
+label_settings = SubResource("LabelSettings_aaq6c")
+autowrap_mode = 3

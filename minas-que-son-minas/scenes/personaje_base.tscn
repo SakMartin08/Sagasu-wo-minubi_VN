@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://djnerr8hpkyug"]
+
+[ext_resource type="Texture2D" uid="uid://bwqmnxarohn1c" path="res://butterfly.png" id="1_luuoo"]
+[ext_resource type="Script" uid="uid://bpb4tsr1dsymk" path="res://scripts/personaje.gd" id="1_uxedn"]
+[ext_resource type="Texture2D" uid="uid://bg3g35t65ls2d" path="res://ESTOY ENOJADOOOO AAAAH.png" id="3_myeh3"]
+
+[node name="personaje" type="Node2D" unique_id=268127570]
+script = ExtResource("1_uxedn")
+
+[node name="Mina" type="Sprite2D" parent="." unique_id=697763818]
+position = Vector2(-0.99999994, -0.99999994)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_luuoo")
+
+[node name="Expresion1" type="Sprite2D" parent="Mina" unique_id=1602742653]
+position = Vector2(135.7143, -304.28574)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_myeh3")
