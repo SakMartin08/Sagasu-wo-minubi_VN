@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://bkyivfvk4wxlg"]
+
+[ext_resource type="Script" uid="uid://bpdak872jrxd2" path="res://scripts/dialogue_manager.gd" id="1_cl3ob"]
+[ext_resource type="PackedScene" uid="uid://4flvb1l5laql" path="res://importante/options.tscn" id="2_wo3vr"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_aaq6c"]
+font_size = 25
+
+[node name="dialogo" type="CanvasLayer" unique_id=496319702]
+process_mode = 3
+script = ExtResource("1_cl3ob")
+
+[node name="DialogueBox" type="Control" parent="." unique_id=2073517095]
+custom_minimum_size = Vector2(0, 200)
+custom_maximum_size = Vector2(999999, 200)
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="DialogueBox" unique_id=214223460]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.9098039)
+metadata/_edit_use_anchors_ = true
+
+[node name="DialogueText" type="Label" parent="DialogueBox" unique_id=158997424]
+custom_minimum_size = Vector2(0, 200)
+custom_maximum_size = Vector2(99999, 200)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.5
+offset_right = 687.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Cuando las vanderas caigan, el mundo volara en pedazos"
+label_settings = SubResource("LabelSettings_aaq6c")
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="Choices Dialog" parent="." unique_id=607405347 instance=ExtResource("2_wo3vr")]

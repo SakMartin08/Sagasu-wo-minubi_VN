@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://djnerr8hpkyug"]
+
+[ext_resource type="Texture2D" uid="uid://bwqmnxarohn1c" path="res://butterfly.png" id="1_luuoo"]
+[ext_resource type="Script" uid="uid://bpb4tsr1dsymk" path="res://scripts/personaje.gd" id="1_uxedn"]
+[ext_resource type="Texture2D" uid="uid://bg3g35t65ls2d" path="res://ESTOY ENOJADOOOO AAAAH.png" id="3_myeh3"]
+[ext_resource type="Texture2D" uid="uid://d3xrfwkyjcgrc" path="res://sprites/expresiones/sorpresa.png" id="4_ka3ps"]
+[ext_resource type="Texture2D" uid="uid://i5dmrvtcudtd" path="res://sprites/expresiones/idea.png" id="5_ka3ps"]
+[ext_resource type="Texture2D" uid="uid://b0voxjq4in2b5" path="res://sprites/expresiones/sonrojo.png" id="6_ux28v"]
+
+[node name="ButterFly" type="Node2D" unique_id=268127570]
+script = ExtResource("1_uxedn")
+
+[node name="Mina" type="Sprite2D" parent="." unique_id=697763818]
+position = Vector2(-0.99999994, -0.99999994)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_luuoo")
+
+[node name="Expresion1" type="Sprite2D" parent="Mina" unique_id=1602742653]
+position = Vector2(135.7143, -304.28574)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_myeh3")
+
+[node name="Expresion2" type="Sprite2D" parent="Mina" unique_id=147231966]
+position = Vector2(197.14285, -402.85715)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_ka3ps")
+
+[node name="Expresion3" type="Sprite2D" parent="Mina" unique_id=210007284]
+position = Vector2(-147.14285, -328.57144)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_ka3ps")
+
+[node name="Expresion4" type="Sprite2D" parent="Mina" unique_id=1104967392]
+position = Vector2(1.4285713, -145.71428)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_ux28v")

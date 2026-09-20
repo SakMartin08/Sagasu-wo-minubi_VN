@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://3gynp5j4llx1"]
+
+[ext_resource type="Script" uid="uid://moigf1n8n2r6" path="res://scripts/missing_bo.gd" id="1_8e1hm"]
+[ext_resource type="Texture2D" uid="uid://c4dooljt7ryet" path="res://sprites/personajes/MissingBo/MissingBo1.png" id="2_6f5k8"]
+[ext_resource type="Texture2D" uid="uid://bg3g35t65ls2d" path="res://ESTOY ENOJADOOOO AAAAH.png" id="3_pkksh"]
+[ext_resource type="Texture2D" uid="uid://d3xrfwkyjcgrc" path="res://sprites/expresiones/sorpresa.png" id="4_gaorr"]
+[ext_resource type="Texture2D" uid="uid://i5dmrvtcudtd" path="res://sprites/expresiones/idea.png" id="5_xx7p2"]
+[ext_resource type="Texture2D" uid="uid://b0voxjq4in2b5" path="res://sprites/expresiones/sonrojo.png" id="6_w2jov"]
+
+[node name="MissingBo" type="Node2D" unique_id=268127570]
+script = ExtResource("1_8e1hm")
+
+[node name="Mina" type="Sprite2D" parent="." unique_id=697763818]
+position = Vector2(-0.9999999, -0.99999994)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_6f5k8")
+
+[node name="Expresion1" type="Sprite2D" parent="Mina" unique_id=1602742653]
+position = Vector2(7.1428833, -474.2857)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("3_pkksh")
+
+[node name="Expresion2" type="Sprite2D" parent="Mina" unique_id=147231966]
+position = Vector2(360, -225.7143)
+rotation = 1.7161238
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_gaorr")
+
+[node name="Expresion3" type="Sprite2D" parent="Mina" unique_id=210007284]
+position = Vector2(-265.7143, -311.4286)
+rotation = 2.8385215
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_xx7p2")
+
+[node name="Expresion4" type="Sprite2D" parent="Mina" unique_id=1104967392]
+position = Vector2(-108.57143, -22.857136)
+rotation = 0.5743449
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_w2jov")
+
+[node name="Expresion5" type="Sprite2D" parent="Mina" unique_id=1365449398]
+position = Vector2(305.7143, 34.285736)
+rotation = -3.1415925
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_pkksh")
+
+[node name="Expresion6" type="Sprite2D" parent="Mina" unique_id=1380133395]
+position = Vector2(-260.00003, -124.28573)
+rotation = -4.952625
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_pkksh")
+
+[node name="Expresion7" type="Sprite2D" parent="Mina" unique_id=352036200]
+position = Vector2(124.285706, -244.28572)
+rotation = -4.15977
+scale = Vector2(0.29999998, 0.29999998)
+texture = ExtResource("5_xx7p2")

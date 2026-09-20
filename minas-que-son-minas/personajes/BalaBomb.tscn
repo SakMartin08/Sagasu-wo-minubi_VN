@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://coqlbakxl0b2l"]
+
+[ext_resource type="Script" uid="uid://bpb4tsr1dsymk" path="res://scripts/personaje.gd" id="1_kcq3u"]
+[ext_resource type="Texture2D" uid="uid://dinxa87rpw7s4" path="res://sprites/personajes/BalaBomb.png" id="2_q3frh"]
+[ext_resource type="Texture2D" uid="uid://bg3g35t65ls2d" path="res://ESTOY ENOJADOOOO AAAAH.png" id="3_yiceo"]
+[ext_resource type="Texture2D" uid="uid://d3xrfwkyjcgrc" path="res://sprites/expresiones/sorpresa.png" id="4_3tatp"]
+[ext_resource type="Texture2D" uid="uid://i5dmrvtcudtd" path="res://sprites/expresiones/idea.png" id="5_mjt8o"]
+[ext_resource type="Texture2D" uid="uid://b0voxjq4in2b5" path="res://sprites/expresiones/sonrojo.png" id="6_hr5jf"]
+
+[node name="BalaBomb" type="Node2D" unique_id=268127570]
+script = ExtResource("1_kcq3u")
+
+[node name="Mina" type="Sprite2D" parent="." unique_id=697763818]
+position = Vector2(-0.99999994, -0.99999994)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_q3frh")
+
+[node name="Expresion1" type="Sprite2D" parent="Mina" unique_id=1602742653]
+position = Vector2(168.57143, -360)
+scale = Vector2(0.13, 0.13)
+texture = ExtResource("3_yiceo")
+
+[node name="Expresion2" type="Sprite2D" parent="Mina" unique_id=147231966]
+position = Vector2(214.2857, -408.57144)
+scale = Vector2(0.18, 0.18)
+texture = ExtResource("4_3tatp")
+
+[node name="Expresion3" type="Sprite2D" parent="Mina" unique_id=210007284]
+position = Vector2(22.857141, -385.7143)
+scale = Vector2(0.23, 0.23)
+texture = ExtResource("5_mjt8o")
+
+[node name="Expresion4" type="Sprite2D" parent="Mina" unique_id=1104967392]
+position = Vector2(108.57143, -298.57144)
+scale = Vector2(0.19, 0.19)
+texture = ExtResource("6_hr5jf")
